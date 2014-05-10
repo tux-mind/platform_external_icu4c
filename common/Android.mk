@@ -116,7 +116,7 @@ local_cflags := '-DICU_DATA_DIR_PREFIX_ENV_VAR="ANDROID_ROOT"'
 local_cflags += '-DICU_DATA_DIR="/usr/icu"'
 
 local_cflags += -D_REENTRANT -DU_COMMON_IMPLEMENTATION -O3
-local_ldlibs := -lpthread -lm
+local_ldlibs := -lm
 
 
 #
