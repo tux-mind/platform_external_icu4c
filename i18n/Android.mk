@@ -99,7 +99,7 @@ LOCAL_LDLIBS += -lm
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := libicui18n
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
 
 
 #

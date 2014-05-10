@@ -130,7 +130,7 @@ LOCAL_CFLAGS := $(local_cflags) -DPIC -fPIC
 LOCAL_LDLIBS += $(local_ldlibs)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := libicuuc
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
 
 
 #
