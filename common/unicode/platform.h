@@ -59,6 +59,10 @@
 #define U_IOSTREAM_SOURCE 199711
 #endif
 
+#ifdef __BIONIC__
+# define HAVE_ANDROID_OS 1
+#endif
+
 /**
  * \def U_HAVE_STD_STRING
  * Define whether the standard C++ (STL) <string> header is available.
