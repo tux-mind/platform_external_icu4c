@@ -205,7 +205,7 @@
  * @stable ICU 2.4
  */
 #ifndef UCONFIG_NO_TRANSLITERATION
-#   define UCONFIG_NO_TRANSLITERATION 1
+#   define UCONFIG_NO_TRANSLITERATION 0
 #endif
 
 /**
