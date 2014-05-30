@@ -92,7 +92,7 @@ LOCAL_SRC_FILES := $(src_files)
 LOCAL_C_INCLUDES := $(c_includes)
 
 LOCAL_CFLAGS += -D_REENTRANT -DPIC -DU_I18N_IMPLEMENTATION -fPIC 
-LOCAL_CFLAGS += -O3
+LOCAL_CFLAGS += -O3 -Wno-deprecated-declarations
 
 LOCAL_SHARED_LIBRARIES += libicuuc
 LOCAL_MODULE_TAGS := optional

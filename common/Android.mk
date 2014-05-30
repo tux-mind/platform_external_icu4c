@@ -113,7 +113,7 @@ c_includes := \
 # device and sim builds can use the same codepath, and it's hard to break one
 # without noticing because the other still works.
 local_cflags := '-DICU_DATA_DIR_PREFIX_ENV_VAR="ANDROID_ROOT"'
-local_cflags += '-DICU_DATA_DIR="/usr/icu"'
+local_cflags += '-DICU_DATA_DIR="/usr/icu"' -Wno-deprecated-declarations
 
 local_cflags += -D_REENTRANT -DU_COMMON_IMPLEMENTATION -O3
 local_ldlibs := -lm
